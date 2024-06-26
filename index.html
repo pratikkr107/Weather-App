@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>Weather App</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+      <script src="https://kit.fontawesome.com/64d58efce2.js">
+
+      </script>
+
+      
+</head>
+
+<body>
+      <div class="wrapper">
+            <div class="sidebar">
+                  <div>
+                        <form action="" class="search" id="search">
+                              <input type="text" name="" id="query" placeholder="Search....">
+                              <button>
+                                    <i class="fas fa-search"></i>
+                              </button>
+                        </form>
+                        <div class="weather-icon">
+                              <img id="icon" src="./assets/cloud.png" alt="">
+                        </div>
+                        <div class="temperature">
+                              <h1 id="temp">0</h1>
+                              <span class="temp-unit"> °C </span>
+                        </div>
+                        <div class="date-time">
+                              <p id="date-time">
+                                    Monday, 12:00</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="condition-rain">
+                              <div class="condition">
+                                    <i class="fas fa-cloud"></i>
+                                    <div class="condition" id="condition">Condition</div>
+                              </div>
+                              <div class="rain">
+                                    <i class="fas fa-tint"></i>
+                                    <p id="rain">prec - 0%</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="location">
+                        <div class="location-icon">
+                              <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-text">
+                              <p class="loc" id="loc">Location</p>
+                        </div>
+                  </div>
+            </div>
+            <div class="main">
+                  <nav id="">
+                        <ul class="options units">
+                              <button class="celcius active" id="celcius">°C </button>
+                              <button class="fahrenheit" id="fahrenheit">°F </button>
+                        </ul>
+                  </nav>
+                  <div class="cards" id="weather-cards">
+                        <div class="card">
+                              <h2 class="day-name">Monday</h2>
+                              <div class="card-icon">
+                                    <img src="./assets/rain.png" alt="" class="day-icon">
+                              </div>
+                              <div class="day-temp">
+                                    <h2 class="temp">32</h2>
+                                    <span class="temp-unit">°C</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="highlights">
+                        <h2 class="heading">Today's Highlights</h2>
+                        <div class="cards2">
+                              <h4 class="card-heading">Humidity</h4>
+                              <div class="content">
+                                    <p class="humidity">0</p>
+                                    <p class="humidity-status">Low</p>
+                              </div>
+                        </div>
+
+                        <div class="cards2">
+                              <h4 class="card-heading">Wind</h4>
+                              <div class="content">
+                                    <p class="wind-speed">0</p>
+                                    <p class="">Low</p>
+                              </div>
+                        </div>
+
+                        <div class="cards2">
+                              <h4 class="card-heading">Air Quality</h4>
+                              <div class="content">
+                                    <p class="air-quality">0</p>
+                                    <p class="air-quality-status">Low</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="credits">
+                        <a href="https://github.com/pratikkr107" id="cred">Made with by Pratik Kumar</a>
+                  </div>
+            </div>
+
+      </div>
+
+</body>
+<script src='main.js'></script>
+</html>
