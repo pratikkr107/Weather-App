@@ -10,4 +10,7 @@ A weather app built with HTML, CSS and JavaScript.
     <li><strong>Unit Toggle:</strong> Switch between Celsius and Fahrenheit units.</li>
     <li><strong>Responsive Design:</strong> Optimized for both desktop and mobile devices.</li>
 </ul>
+<h2>Screenshot</h2>
+
+![Screenshot (33)](https://github.com/pratikkr107/Weather-App/assets/146076433/9c0b2708-7bc9-4f88-8cbd-bdce4a8712fe)
 
